@@ -41,21 +41,6 @@ if (isset($_POST['add-btn'])) {
 <html>
 
 <body>
-        <section id="header">
-        <a href="Home.php"> <img src="img/Logo_dark.png" class="logo" alt="" width="100" height="100"></a>
-            
-        <div>
-            <ul id="navbar">
-            <li> <a href="Home.php">Home</a> </li>
-            <li> <a href="shop.php">Shop</a> </li>
-            <li> <a href="Aboutt.html">About</a></li>
-            <li> <a href="contact.html">Contact</a> </li>
-             <li> <a class="active" href="account.php">Account</a> </li>
-                 <li> <a href="FAQ.html">FAQ</a> </li>
-            <li> <a href="ncart.php"><i class='bx bxs-cart-alt'></i></a></li>
-            </ul>
-        </div>    
-        </section>
     <section id="account-page">
         <div class="container">
         <div class="row">
@@ -103,21 +88,6 @@ if (isset($_POST['add-btn'])) {
             </div>
         </div>
     </section>
-
-<footer class="section-p1">
-       
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="account.php">Sign In</a>
-            <a href="ncart.php">View Cart</a>
-            <a href="ncart.php">My Wishlist</a>
-            <a href="account.php">Track My Order</a>
-            <a href="contact.html">Help</a>
-        </div>
-
-      
-          
-        </footer>
         <script type="text/javascript">
                         function validateForm() {
                             var pid = document.forms["addForm"]["pid"].value;
