@@ -8,33 +8,6 @@ $result = $db->query("SELECT * FROM plant where Quantity>0");
  <html>
  
      <body>
-         
-        <section id="header">
-        <a href="Home.php"> <img src="img/Logo_dark.png" class="logo" alt="" width="100" height="100"></a>      
-     
-     
-      <div>
-            <ul id="navbar">
-            <li> <a class="active" href="Home.php">Home</a> </li>
-            <li> <a href="shop.php">Shop</a> </li>
-            <li> <a href="Aboutt.html">About</a></li>
-            <li> <a href="contact.html">Contact</a> </li>
-                <li> <a href="account.php">Account</a> </li>
-                 <li> <a href="FAQ.html">FAQ</a> </li>
-            <li> <a href="ncart.php"><i class='bx bxs-cart-alt'></i></a></li>
-            </ul>
-        </div>    
-        </section>
-     
-     
-
-         
-         <br>
-        
-         <section style = "color:#FFBEB5; font-size: 20px; font-weight: 500; text-align: center; border:#2D895F solid 0.1em; padding:1em;"> 
-          
-          
-         </section>
          <section id="product1" class="section-p1">
         <div class="pro-container">
             <?php
@@ -116,46 +89,7 @@ $result = $db->query("SELECT * FROM plant where Quantity>0");
             $_SESSION["cart"][] = $session_array;
         }
     } ?>
-<footer class="section-p1">
-        <div class="col">
-            <img class="logo" src="img/Logo_dark.png" alt="" width="100" height="100">
-            <h4> Contact </h4>
-            <p> <strong> Address: </strong> King Faisal Ibn Abd Al Aziz, King Faysal University, Dammam 34212 </p>
-            <p> <strong> Phone: </strong> 013 333 3766 </p>
-            <p> <strong> Hours: </strong> sun-thu: 8:00am-8:00pm </p>
-            
-            
-            <div class="follow">
-                <h4>Follow Us</h4>
-                <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-pinterest-p"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="account.php">Sign In</a>
-            <a href="ncart.php">View Cart</a>
-            <a href="ncart.php">My Wishlist</a>
-            <a href="account.php">Track My Order</a>
-            <a href="contact.html">Help</a>
-        </div>
-
          
-            
-        </footer>
-         
-         
- 
-
-
     
     </body>
 </html>
