@@ -7,16 +7,6 @@ if(@$_SESSION['user']==""){
 <!DOCTYPE html>
 
 <html>
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Cmpatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <title> IVY Shop | Admin </title>
-    <!-- link to the css-->
-    <link rel="stylesheet" href="style.css">
-    <!-- box icons -->
-    <link href='http://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> 
-</head>
     
     <body>
         <section id="header">
