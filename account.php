@@ -38,34 +38,6 @@ if (isset($_POST['login_user'])) {
 <html>
     
     <body>
-    <div id="display-image">
-        
-    </div>
-        <section id="header">
-        <a href="Home.php"> <img src="img/Logo_dark.png" class="logo" alt="" width="100" height="100"></a>
-            
-        <div>
-            <ul id="navbar">
-            <li> <a href="Home.php">Home</a> </li>
-            <li> <a href="shop.php">Shop</a> </li>
-            <li> <a href="Aboutt.html">About</a></li>
-            <li> <a  href="contact.html">Contact</a> </li>
-            <li> <a class="active" href="Account.php">Account</a> </li>
-                 <li> <a href="FAQ.html">FAQ</a> </li>
-            <li> <a href="ncart.php"><i class='bx bxs-cart-alt'></i></a></li>
-            </ul>
-        </div>    
-        </section>
-        <section id="account-page" >
-            <div class="container" >
-                <div class="row">
-                    <div class="col-2">
-                        <img src="img/Header3.jpeg" >
-                        </div>
-                    <div class="col-2">
-                        <div class="form-container">
-                            
-                            
                         <form name ="accountForm" method="post" action="#" onsubmit="return validateForm()">
                               
                             <h4>Admin Login</h4>
@@ -85,37 +57,7 @@ if (isset($_POST['login_user'])) {
                              
                                     
                                 </form>
-                               </div>
-                                
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-
-             
-        </section>
-
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="account.php">Sign In</a>
-            <a href="ncart.php">View Cart</a>
-            <a href="ncart.php">My Wishlist</a>
-            <a href="account.php">Track My Order</a>
-            <a href="contact.html">Help</a>
-        </div>
-
-            <div class="col install">
-            <h4> Install app </h4>
-                <p> from app store or google play </p>
-                <div class="row">
-                <img src="img/pay/Appstore.jpeg" alt="">
-                <img src="img/pay/play.jpg" alt="">
-                </div>
-                <p> Secured payment gateway </p>
-                <img src="img/pay/payment.png" alt="">
-            </div>
-        
-        </footer>
+                              
         <script type="text/javascript">
                         function validateForm() {
                             var username = document.forms["accountForm"]["username"].value;
