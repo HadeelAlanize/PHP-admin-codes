@@ -7,22 +7,6 @@ include "mysqli_connect.php";
 <html lang="en">
 
 <body>
-
-    <section id="header">
-        <a href="#"><img src="img/Logo_dark.png" class="logo" alt="" width="100" height="100"></a>
-
-        <div>
-           <ul id="navbar">
-            <li> <a href="Home.php">Home</a> </li>
-            <li> <a class="active" href="shop.php">Shop</a> </li>
-            <li> <a href="Aboutt.html">About</a></li>
-            <li> <a href="contact.html">Contact</a> </li>
-            <li> <a href="account.php">Account</a> </li>
-                <li> <a href="FAQ.html">FAQ</a> </li>
-            <li> <a href="ncart.php"><i class='bx bxs-cart-alt'></i></a></li>
-        </div>
-    </section>
-
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
             <img src="images/<?php echo $_GET["p_image"] ?>" width="100%" id="MainImg" alt="">
@@ -117,20 +101,6 @@ if (isset($_POST["add_to_cart"])) {
 }
 
 ?>
-
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="account.php">Sign In</a>
-            <a href="ncart.php">View Cart</a>
-            <a href="ncart.php">My Wishlist</a>
-            <a href="account.php">Track My Order</a>
-            <a href="contact.html">Help</a>
-        </div>
-
-     
-    </footer>
-        
-
    
 </body>
 
