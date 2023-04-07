@@ -6,21 +6,6 @@ $result = $db->query("SELECT * FROM plant where Quantity>0");
 ?>
 <!DOCTYPE html>
  <html>
-
-     <head>
-     
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Cmpatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <title> IVY Shop | Home </title>
-    <!-- link to the css-->
-    <link rel="stylesheet" href="style.css">
-    <!-- box icons -->
-    <link href='http://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> 
-     
-    
-     </head>
-     
  
      <body>
          
@@ -42,14 +27,7 @@ $result = $db->query("SELECT * FROM plant where Quantity>0");
         </section>
      
      
-     
-        <section id="sales">
-        <h4> End of semester sales </h4>
-        <h2> Can't miss deals </h2>
-        <h1> On all Plants </h1>
-        <p style="color:#FFBEB5; font-size: 30px; font-weight: 500"> Coupons & up to 70% discounts! </p>
-        <button onclick="window.location.href='shop.html'"> Shop now! </button>
-        </section>
+
          
          <br>
         
@@ -160,14 +138,6 @@ $result = $db->query("SELECT * FROM plant where Quantity>0");
         </div>
 
 
-        <div class="col">
-            <h4>About</h4>
-            <a href="Aboutt.html">About Us</a>
-            <a href="#">Delivery Information</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="contact.html">Contact Us</a>
-        </div>
 
         <div class="col">
             <h4>My Account</h4>
@@ -178,19 +148,8 @@ $result = $db->query("SELECT * FROM plant where Quantity>0");
             <a href="contact.html">Help</a>
         </div>
 
-            <div class="col install">
-            <h4> Install app </h4>
-                <p> from app store or google play </p>
-                <div class="row">
-                <img src="img/pay/Appstore.jpeg" alt="">
-                <img src="img/pay/play.jpg" alt="">
-                </div>
-                <p> Secured payment gateway </p>
-                <img src="img/pay/payment.png" alt="">
-            </div>
-            <div class="copyright">
-            <p> <center> © 2022, web based project - Class 3, Group 3</center>  </p>
-            </div>
+         
+            
         </footer>
          
          
